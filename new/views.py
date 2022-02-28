@@ -22,7 +22,7 @@ def contact(request):
         contact.email=email
         contact.message=message
         contact.save()
-        return HttpResponse('<h1>Thanks for Contract with us</h1>')
+        return HttpResponse('<h1>Thanks for Contacting with us</h1>')
     return render(request, 'new/contact.html')
     def showdata(request):
         
